@@ -1,0 +1,32 @@
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-color: red;
+    animation-name: body;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes body {
+    0%{background-color: rgb(255, 0, 0);}
+    10%{background-color: rgb(98, 255, 0);}
+    50%{background-color: rgb(0, 255, 225);}
+    80%{border-color: rgb(0, 4, 255);}
+    100%{background-color: rgb(255, 0, 0);}
+}
+canvas{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
